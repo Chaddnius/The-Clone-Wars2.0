@@ -22,13 +22,13 @@ To get started with this repository on your Mac, follow these steps to clone it 
 
 4. **Navigate into the Cloned Repository:**
    ```bash
-   cd The-Clone-Wars
+   cd The-Clone-Wars2.0
    ```
 
 5. **Run the Setup Script:**
    - Ensure the script has executable permissions, then run it.
    ```bash
-   chmod +x Setupscript.sh
-   ./Setupscript.sh
+   chmod +x Setup.sh
+   ./Setup.sh
    ```
 ---
