@@ -22,16 +22,16 @@ sleep 2
 DOCKUTIL --add "/System/Applications/Calendar.app" --no-restart --allhomes
 sleep 2
 
-DOCKUTIL --add "/System/Applications/System Preferences.app" --no-restart --allhomes
+DOCKUTIL --add "/System/Applications/System Settings.app" --no-restart --allhomes
 sleep 2
 
 DOCKUTIL --add "/Applications/Spotify.app" --no-restart --allhomes
 sleep 2
 
-DOCKUTIL --add "/Applications/Microsoft Teams.app" --no-restart --allhomes
+DOCKUTIL --add "/Applications/Microsoft Teams.app" --no-restart --allhomes #needs fixing
 sleep 2
 
-DOCKUTIL --add "/Applications/Discord.app" --no-restart --allhomes
+DOCKUTIL --add "/Applications/Discord.app" --no-restart --allhomes #needs fixing
 sleep 2
 
 DOCKUTIL --add "/Applications/iTerm.app" --no-restart --allhomes
@@ -43,7 +43,7 @@ sleep 2
 DOCKUTIL --add "/System/Applications/TextEdit.app" --no-restart --allhomes
 sleep 2
 
-DOCKUTIL --add "/Applications/1Password.app" --no-restart --allhomes
+DOCKUTIL --add "/Applications/1Password.app" --no-restart --allhomes #needs fixing
 sleep 2
 
 DOCKUTIL --add "/System/Applications/Messages.app" --no-restart --allhomes
@@ -51,7 +51,5 @@ sleep 2
 
 DOCKUTIL --add "/Applications/Slack.app" --no-restart --allhomes
 sleep 2
-
-killall Dock
 
 echo "Dockutil setup complete" 
