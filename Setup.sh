@@ -126,56 +126,56 @@ current_user=$(whoami)
 current_user_home="/users/$current_user"
 
 # time for some dockutil magic 
-DOCKUTIL --remove all --no-restart 
-    sleep 2
+DOCKUTIL --remove all --no-restart
+sleep 2
 
-DOCKUTIL --add "/System/Applications/Launchpad.app" --no-restart --allhomes 
-    sleep 2
+DOCKUTIL --add "/System/Applications/Launchpad.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/safari.app" --no-restart --allhomes
-    sleep 2 
+DOCKUTIL --add "/Applications/Safari.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/google chrome.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/Google Chrome.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/Firefox.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/Firefox.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/mail.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/System/Applications/Mail.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/calendar.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/System/Applications/Calendar.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/system preferences.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/System/Applications/System Settings.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/spotify.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/Spotify.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/microsoft teams.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/Microsoft Teams.app" --no-restart --allhomes #needs fixing
+sleep 2
 
-DOCKUTIL --add "/System/Applications/discord.app" --no-restart --allhomes
-    sleep 2 
+DOCKUTIL --add "/Applications/Discord.app" --no-restart --allhomes #needs fixing
+sleep 2
 
-DOCKUTIL --add "/System/Applications/iTerm.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/iTerm.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/visual studio code.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/Visual Studio Code.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL -add "/System/Applications/TextEdit.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/System/Applications/TextEdit.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/1password.app" --no-restart --allhomes
-    sleep 2
+DOCKUTIL --add "/Applications/1Password.app" --no-restart --allhomes #needs fixing
+sleep 2
 
-DOCKUTIL --add "/System/Applications/Messages.app" --no-restart --allhomes  
-    sleep 2
+DOCKUTIL --add "/System/Applications/Messages.app" --no-restart --allhomes
+sleep 2
 
-DOCKUTIL --add "/System/Applications/Slack.app" --no-restart --allhomes    
-    sleep 2
+DOCKUTIL --add "/Applications/Slack.app" --no-restart --allhomes
+sleep 2
 
 echo "Dockutil setup complete" 
 
