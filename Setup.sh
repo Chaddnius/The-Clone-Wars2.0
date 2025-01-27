@@ -177,6 +177,30 @@ DOCKUTIL --add "/System/Applications/Messages.app" --no-restart --allhomes
 DOCKUTIL --add "/System/Applications/Slack.app" --no-restart --allhomes    
     sleep 2
 
-echo "Dockutil setup complete, exiting script" 
+echo "Dockutil setup complete" 
+
+
+################################################################################
+# hot corners setup
+################################################################################
+
+# 0: No Action | 2: Mission Control | 3: Application Windows | 4: Desktop | 5: Start Screen Saver
+defaults write com.apple.dock wvous-tl-corner -int 4 # Top Left: Show Desktop
+
+defaults write com.apple.dock wvous-tl-modifier -int 0
+
+defaults write com.apple.dock wvous-tr-corner -int 4 # Top Right: Show Desktop
+
+defaults write com.apple.dock wvous-tr-modifier -int 0
+
+defaults write com.apple.dock wvous-bl-corner -int 2 # Bottom Left: Mission Control
+
+defaults write com.apple.dock wvous-bl-modifier -int 0
+
+defaults write com.apple.dock wvous-br-corner -int 2 # Bottom Right: Mission Control
+
+defaults write com.apple.dock wvous-br-modifier -int 0
+
+killall Dock
 
 exit 0 
